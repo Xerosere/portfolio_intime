@@ -1,0 +1,91 @@
+body,h1,h2,h3,h4 {   
+    font-family: "Montserrat", sans-serif;
+    margin: 0px;
+    background-color: black;
+    color: white;
+}
+.namehead{
+    text-align: center;
+    stroke: rgb(255, 255, 255);
+    font-size: 100px;
+    
+}
+
+.site-header{
+    width: 100px;
+    height: 0px;
+    margin-top: 50px;
+   
+}
+
+#main_header{
+    display: block;
+}
+.namehead{
+    color: rgb(0, 0, 0);
+}
+
+.site-header-item {
+    display: flex;
+    align-items: center;
+    max-height: inherit;
+}
+.site-header-wrap.site-header-section {
+    display: flex;
+    max-height: inherit;
+}
+.main_row_site_header{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.sidebar{
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    margin: auto;
+
+}
+.menu-type{
+    margin:29px 0px 30px 25px;
+    color: rgb(255, 255, 255);
+}
+.menu div a{
+    text-decoration: none; 
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: bold;
+    position: relative;
+}
+
+.main_footer{
+    background-color: rgb(255, 255, 255);
+    margin-top: 70px;
+}
+.para-about{
+    font-size: 25px;
+    color: rgb(255, 255, 255);}
+
+.img_photo_vertical{
+    height: 720px;width: 450px;
+    margin: 25px 25px 0px 25px;
+}
+.img_photo_horizontal{
+    width:576px;
+    height: 384px;
+    margin: 25px 25px 25px 25px;
+}
+
+.main_footer{
+    background-color: rgb(21, 24, 27);
+    margin-top: 70px;
+    height: 100px;
+}
+.detail_contact{
+    font-size: 30px;
+    display: flex;
+    text-align: center;
+    margin-left: 500px;
+}
+
+ 
+

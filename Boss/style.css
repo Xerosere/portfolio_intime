@@ -1,0 +1,201 @@
+body {   
+    font-family: 'Kanit', sans-serif;
+    margin: 0px;
+}
+/*mastheader*/
+.site-header{
+    height: 100px;
+    background-color: black;
+    
+}
+#main-header{
+    display: block;
+}
+.site-title {
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 1.2;
+    text-decoration: none;
+    color: white;
+    margin: -10px -10px -10px -10px;
+    box-sizing: inherit;
+}                                                                                                             
+.site-header-item {
+    display: flex;
+    align-items: center;
+    max-height: inherit;
+}
+.site-header-wrap.site-header-section {
+    display: flex;
+    max-height: inherit;
+}
+.main-row-site-header{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.left-header-wrap {
+    color: white;
+    margin-left: 50px;
+}
+.right-header-wrap {
+    justify-content: flex-end;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    max-height: inherit;
+}
+.menu li a {
+    text-decoration: none; 
+    color: white;
+    font-weight: bold;
+    position: relative;
+}
+.menu-item {
+    display: flex;
+    align-items: center;
+    margin-right: 70px;
+    max-height: inherit;
+}
+.menu-type {
+    font-size: 18px;
+    padding: 8px;
+}
+ul {
+    list-style-type: none;
+}
+img.logo {
+    width: 100px;
+    height: 100px;
+}
+/*mastheader*/
+
+/*content*/
+.content-area {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.content-container.site-container{
+    max-width: none;
+    padding: 0;
+}
+main {
+    display: block;
+    min-width: 0;
+}
+.content-wrap {
+    position: relative;
+}
+.background-overlay {
+    border-radius: 0px 0px 0px 0px;
+    background-color: black;
+    opacity: 0.65;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+.slogan {
+    font-size: 150px;
+    text-align: center;
+    color: white;
+    background-image: url(/picture/ปกหลัง.JPG);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 80px 0px 100px 0px;
+}
+.text-slogan {
+    margin: 0;
+    padding: 260px 0px 260px 0px;
+    opacity: 0.75;
+}
+/*content*/
+
+
+
+
+/*ส่วนของ Container*/
+
+.site-container{
+    margin: 20px 0px 0px 0px;
+}
+.container {
+    display: flex;
+    max-width: 1140px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-bottom: 130px;
+    position: relative;
+}
+.info-left-section {
+    width: 50%;
+    padding: 0px 180px 0px 0px;
+    margin: 0px 0px 0px 0px;
+}
+.info-widget-wrap.pic-right-section {
+    align-content: flex-end;
+    align-items: flex-end;
+}
+.pic-right-section {
+    background-color: white;
+    margin-top: 45px;
+    padding: 20px 0px 0px 0px;
+}
+.widget-info {
+    text-align: left;
+}
+.abm-img {
+    display: flex;
+}
+.abm-widget {
+    color: white;
+}
+/*ส่วนของ Container*/
+
+
+/*footer*/
+.site-footer {
+    padding: 55px 45px 0px 45px;
+}
+.element-footer {
+    color: white;
+}
+#mast-footer{
+    display: block;
+}
+.foot-container {
+    display: grid;
+}
+.footer-title {
+    text-align: center;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+}
+.social-contact {
+    display: flex;
+}
+.contact {
+    display: inline-flex;
+    justify-content: center;
+}
+.site-footer-box {
+    display: flex;
+    align-items: center;
+    max-height: inherit;
+    padding: 0px 40px 0px 40px;
+}
+.left-box.center-box.right-box {
+    display: grid;
+}
+.padding-logo {
+    padding: 0px 20px 0px 0px;
+}
+/*footer*/
+
+.hr {
+    border: 1px solid #333;
+}
